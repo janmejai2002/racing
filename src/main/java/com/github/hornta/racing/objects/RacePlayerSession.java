@@ -161,6 +161,7 @@ public class RacePlayerSession {
 
     if(raceSession.getRace().getType() == RaceType.ELYTRA) {
       player.getInventory().setChestplate(new ItemStack(Material.ELYTRA, 1));
+      player.getInventory().setItemInMainHand(new ItemStack(Material.FIREWORK_ROCKET, 64));
     }
   }
 
